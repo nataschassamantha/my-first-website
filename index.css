@@ -1,0 +1,42 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* style pada header */
+.header {
+    background-color: floralwhite;
+    padding: 20px;
+    text-align: center;
+}
+
+/* style pada topnav */
+.topnav {
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: floralwhite;
+    color: cadetblue;
+}
+
+/* style pada footer */
+.footer {
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+}

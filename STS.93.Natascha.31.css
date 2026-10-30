@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Sirukota";
+    src: url("sirukota/Sirukota.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-image: url("stsbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #7A451F;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFF3C4;
+    padding: 35px 50px;
+    border: 5px solid #F28C28;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: "Sirukota", cursive;
+    font-size: 52px;
+    font-weight: bold;
+    color: #FFF3C4;
+    background-color: #F47B3A;
+    border-radius: 12px;
+}
+
+.identitas {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Sirukota", cursive;
+    font-size: 24px;
+    color: #D9572B;
+}
+
+.content {
+    background-color: #FFE79A;
+    padding: 20px 25px;
+    border-left: 6px solid #F28C28;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin: 0;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;
+    text-indent: 35px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Sirukota", cursive;
+    font-size: 34px;
+    font-weight: bold;
+    color: #FFF3C4;
+    background-color: #D9572B;
+    border-radius: 12px;
+}
+
+.judul-tips {
+    color: #7A451F;
+    background-color: #FFD45C;
+}
+
+.tips {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-tips {
+    width: 31%;
+    padding: 30px 20px 25px;
+    text-align: center;
+    background-color: #F47B3A;
+    border-radius: 40px;
+}
+
+.card-tips img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-tips p {
+    margin-top: 25px;
+    font-family: monospace;
+    font-size: 22px;
+    color: #7A451F;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .tips {
+        flex-direction: column;
+    }
+
+    .card-tips {
+        width: 100%;
+    }
+}
+.topnav {
+    overflow: hidden;
+    background-color: #F47B3A;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #FFF3C4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #FFD45C;
+    color: #7A451F;
+}
